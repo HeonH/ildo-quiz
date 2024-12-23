@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c2b6f;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .warning {
+    font-size: 12px;
+    color: #ff4d4f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .warning-icon {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .start-btn,
+  .retry-btn {
+    background-color: #5856d6;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    margin: 20px auto;
+  }
+  
+  .start-btn:hover,
+  .retry-btn:hover {
+    background-color: #4542a6;
+  }
+  
+  .question {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin: 20px 0;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .bottom-nav {
+    width: 100%;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .nav-item {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .nav-item.active {
+    color: #2c2b6f;
+  }
+  
+  .nav-item svg {
+    display: block;
+    margin: 0 auto 5px;
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+  }
+  
+  .failure-screen {
+    display: none;
+    text-align: center;
+  }
+  
+  .failure-screen.active {
+    display: block;
+  }
+  
